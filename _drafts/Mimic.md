@@ -223,7 +223,7 @@ _Example:_
 
 #### Are Voices compiled or loaded from a file?
 
-Voices can be compiled (built-in) into Mimic or loaded from a ``.flitevox` file. The only exception are `hts` Voices. `hts` Voices combine both a compiled function with a voice data file, `.htsvoice`. Mimic will look for the `.htsvoice` file when the `hts` voice is loaded, looking in the current working directory, the `voices` subdirectory and the ``$prefix/share/mimic/voices` directory if it exists.
+Voices can be compiled (built-in) into Mimic or loaded from a `.flitevox` file. The only exception are `hts` Voices. `hts` Voices combine both a compiled function with a voice data file, `.htsvoice`. Mimic will look for the `.htsvoice` file when the `hts` voice is loaded, looking in the current working directory, the `voices` subdirectory and the `$prefix/share/mimic/voices` directory if it exists.
 
 Voice names are identified as loadable files if the name includes a "/" (slash) otherwise they are treated as internal compiled-in voices.
 
